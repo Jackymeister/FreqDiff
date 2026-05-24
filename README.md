@@ -27,7 +27,8 @@ FreqDiff_clean_*/
 
 ## Dataset
 
-Dataset can be obtained from [DIffuTKG]([https://arxiv.org/abs/2312.12021](https://github.com/AONE-NLP/DiffuTKG))
+Dataset can be obtained from [DIffuTKG](https://github.com/AONE-NLP/DiffuTKG)
+
 Each dataset folder contains the raw temporal quadruple splits (`train.txt`, `valid.txt`, `test.txt`), dictionaries (`entity2id.txt`, `relation2id.txt`, `stat.txt`), and precomputed `history_seq/` files used by the model.
 
 ## Environment
