@@ -22,6 +22,7 @@ FreqDiff_clean_*/
 ├── logs/                # generated during training/evaluation; empty in this package
 └── results/             # generated prediction/ranking logs; empty in this package
 ```
+Dataset can be obtained from [DIffuTKG]([https://arxiv.org/abs/2312.12021](https://github.com/AONE-NLP/DiffuTKG))
 
 Each dataset folder contains the raw temporal quadruple splits (`train.txt`, `valid.txt`, `test.txt`), dictionaries (`entity2id.txt`, `relation2id.txt`, `stat.txt`), and precomputed `history_seq/` files used by the model.
 
